@@ -33,60 +33,38 @@ h3 {
 	margin-left: 10px;
 }
 
-.nav {
+/*.nav {
 	display: inline;
-	margin: 0 0 0 0;
+	margin: 20px auto;
+	width: 100%;
+	height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 100%;
     overflow: hidden;
-}
+}*/
 
 .nav ul {
 	list-style: none;
-	background-color: black;
-	padding-top: 18px;
-    padding-bottom: 36px;
-}
-	
-.nav li {
-	list-style: none;
-	display: inline;
-	float: left;
-    width: 16.66%;
+	padding: 0px;
+	margin: 0px;
 }
 
 .nav a {
 	color: rgb(244, 244, 244);
 	text-decoration: none;
 }
- .item-1 a {
- 	 padding: 18px 70px 19px 25px;
-     border-right: 2px rgb(70, 70, 70) solid;
- }
 
-  .item-2 a {
- 	 padding: 18px 80px 19px 40px;
-     border-right: 2px rgb(70, 70, 70) solid;
- }
-
-   .item-3 a {
- 	 padding: 18px 55px 19px 25px;
-     border-right: 2px rgb(70, 70, 70) solid;
- }
-
-  .item-4 a {
- 	 padding: 18px 60px 19px 35px;
-     border-right: 2px rgb(70, 70, 70) solid;
- }
-
-  .item-5 a {
- 	 padding: 18px 65px 19px 50px;
-     border-right: 2px rgb(70, 70, 70) solid;
- }
-   .item-6 a {
- 	 padding: 18px 40px 19px 55px;
- }
+.nav-list {
+	margin: 0px 0px;
+	background: black;
+	width: 16.66%;
+	height: 50px;
+	float: left;
+	border-right: 2px rgb(70,70,70) solid;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px;
+}
 
 .date h2 {
 	color: rgb(206, 206, 206);
@@ -152,21 +130,26 @@ img.center {
 }
 
 .site-footer {
-	position: relative;
-	margin-top: -400px;
-	height: 150px;
 	clear:both;
 }
 
 .site-footer a {
 	text-decoration: none;
 	color: rgb(217,55,54);
-	padding: 5px 10px;
-	display:inline;
-	border-right: 1px rgb(206,206,206) solid;
 }	
- .site-footer a.last {
- 	border:none;
+
+.footer {
+	width: 60%;
+	height:15px;
+	border-right: 1px rgb(206,206,206) solid;
+	padding: 1px 10px 1px 5px;
+}
+
+.last {
+	width: 70%;
+	height:15px;
+ 	border: none;
+ 	padding: 1px 10px 1px 5px;
  }
 
  .site-footer footer {
