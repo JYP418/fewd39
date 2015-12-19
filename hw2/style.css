@@ -3,6 +3,7 @@
 	margin: 40px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: lighter;
+	overflow: hidden;
 }
 
 .col-8 {
@@ -33,13 +34,13 @@ h3 {
 	margin-left: 10px;
 }
 
-.nav ul {
+nav ul {
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
 }
 
-.nav a {
+nav a {
 	color: rgb(244, 244, 244);
 	text-decoration: none;
 }
