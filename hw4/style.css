@@ -1,0 +1,25 @@
+.jumbotron {
+	margin-top: 80px;
+}
+
+.col-md-4 {
+	margin: 10px 0px;
+}
+
+.btn-default {
+	background-image: none;
+	background-color: #fff;
+}
+
+.divider {
+	border-bottom: 1px #CCCCCC solid;
+	margin: 20px 0px 30px 0px;
+}
+
+footer {
+	margin-bottom: 30px;
+}
+
+.sidebar {
+	margin-top: 80px;
+}

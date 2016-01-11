@@ -1,0 +1,22 @@
+/*.row {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: rgba(119,119,119,1);
+	margin: 0 auto;
+}*/
+
+.divider {
+	border-bottom: 1px #CCCCCC solid;
+	margin: 20px 0px;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.btn, .btn-success, .btn-lg {
+	padding: 18px 13px;
+}
