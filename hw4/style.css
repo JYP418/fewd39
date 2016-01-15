@@ -1,9 +1,19 @@
 .jumbotron {
 	margin-top: 80px;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color: rgba(211,155,20,1);
 }
 
 .col-md-4 {
 	margin: 10px 0px;
+}
+
+.col-md-4 h2 {
+	color: rgba(212,166,0,1);
+	text-align: center;
 }
 
 .btn-default {
@@ -20,6 +30,24 @@ footer {
 	margin-bottom: 30px;
 }
 
+.footer {
+	color: rgba(212,166,0,1);
+}
+
 .sidebar {
 	margin-top: 80px;
 }
+
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+	background-color: rgba(212,166,0,1);
+	background-image: none;
+	border-color: rgba(212,166,0,1);
+}
+
+.list-group a {
+	color: rgba(106,0,27,1);
+}
+
+
+
