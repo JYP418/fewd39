@@ -1,6 +1,6 @@
-var a = prompt("Enter a Number");
-var b = prompt("Enter a Second Number");
-var c = prompt("Enter a Third Number");
+var a = prompt("Input a Number");
+var b = prompt("Input a Second Number");
+var c = prompt("Input a Third Number");
 
 var x = function maxOfThree(a,b,c) {	
 	if(a>b && a>c) {

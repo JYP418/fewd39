@@ -1,5 +1,5 @@
-var a = prompt("Enter a Number");
-var b = prompt("Enter a Second Number");
+var a = prompt("Input a Number");
+var b = prompt("Input a Second Number");
 
 var x = function max(a,b) {	
 	if(a > b) {
