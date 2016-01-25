@@ -35,7 +35,7 @@ body { font-family: sans-serif; }
   // grab the parent and append the child to parent
     parent.appendChild(listItem);
   };
-  
+
   </script>
 </div>
 
@@ -56,6 +56,18 @@ body { font-family: sans-serif; }
 
   <script>
  //create a function called addImage here 
+ function addImage () {
+	var response = prompt("Please enter your image url here:");
+	var width = prompt("Enter the width of your image:");
+	var height = prompt("Now enter the height of your image:");
+
+	var image = document.createElement ("img");
+	image.setAttribute("src", response);
+	image.setAttribute("width", width);
+	image.setAttribute("height", height);
+	var div = document.querySelector("#image");
+	div.appendChild(image);
+ };
 
   </script>
 </div>
@@ -75,6 +87,11 @@ body { font-family: sans-serif; }
 
   <script>
   //create a function called makeBold here
+
+  	function makeBold () {
+  		var p = document.querySelector("#make-me-bold");
+  			p.setAttribute("class", "bold");
+  	};
  
   </script>
 </div>
