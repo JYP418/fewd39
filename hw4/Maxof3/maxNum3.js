@@ -1,3 +1,5 @@
+// Vanilla JS
+
 var a = prompt("Input a Number");
 var b = prompt("Input a Second Number");
 var c = prompt("Input a Third Number");
@@ -16,3 +18,10 @@ var x = function maxOfThree(a,b,c) {
 };
 
 x(a,b,c);
+
+// Shortcut JS
+
+function maxOfThree (num1, num2, num3) {
+	return Math.max(num1, num2, num3);
+}
+maxOfThree(4, 5, 6);

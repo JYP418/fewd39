@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 2</title>
+</head>
+
+<style type="text/css">
+	.green {
+		color: green;
+	}
+
+	#fontsize100 {
+		font-size: 100px;
+	}
+
+</style>
+
+<body>
+<h1> Hi there! </h1>
+	<ul>
+		<li class = "green"> List Item 1</li>
+		<button>Submit</button>
+	</ul>
+</body>
+
+<script type="text/javascript">
+// create new element <li>
+	var listItem = document.createElement("li");
+
+	// decorate element
+	listItem.textContent = "my first list item";
+
+	// grabbed or selected the parent (to the child <li>)
+	var ul = document.querySelector("ul");
+
+	// putting child element underneath parent element
+	ul.appendChild(listItem);
+
+	// set an attribute inside the li tag to make color green
+	listItem.setAttribute("class","green");
+	listItem.className = "green";
+
+	// set an attribute inside the li tag to increase font size
+	listItem.setAttribute("id","fontsize100");
+
+
+// create new element <img>
+	var image = document.createElement("img");
+
+	// set an attribute inside the image tag
+	image.setAttribute("src","http://i.telegraph.co.uk/multimedia/archive/02737/SL-coffee-17116_2737697c.jpg");
+
+	// putting child element underneath parent element
+	ul.appendChild(image);
+
+
+// notes for how to set an Event Listener
+	var button = document.querySelector('button');
+	function buttonClicked() {
+		alert('Hello World!');
+	}
+	button.addEventListener('click', buttonClicked);
+
+
+</script>
+</html>
