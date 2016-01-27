@@ -88,8 +88,8 @@ body { font-family: sans-serif; }
   <script>
   //create a function called makeBold here
     function makeBold() {
-  	 var p = document.querySelector("#make-me-bold");
-  	 p.setAttribute("class","bold");
+  	 var p = document.querySelector("#make-me-bold")
+      p.classList.toggle("bold")
 	 };
 
 
