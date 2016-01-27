@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator HW</title>
+</head>
+
+<style type="text/css">
+	body {
+		margin-top: 50px;
+		margin-left: 20px;
+		font-family: Arial;
+		font-size: 12px;
+		line-height: 30px;
+	}
+
+	input {
+		font-size: inherit;
+		line-height: inherit;
+		padding: 5px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+
+	.calculator {
+		margin-bottom: 100px;
+	}
+
+	.input1, .input2 {
+  		width: 80px;
+	}
+</style>
+
+<body>
+	<div class = "calculator">
+		<input type="text" class="input1" placeholder="Enter 1st #">
+			<button onClick="addition()" value="addition"> + </button>
+			<button onClick="subtraction()" value="subtraction"> - </button>
+			<button onClick="multiply()" value="multiply"> * </button>
+			<button onClick="divide()" value="divide"> / </button>
+	    <input type="text" class="input2" placeholder="Enter 2nd #"> = 
+	    <input type="text" class="answer" placeholder="Answer">
+	</div>
+
+</body>
+
+<script type="text/javascript">
+function calculate() {
+	var input1 = Number(document.querySelector('.input1').value);
+	var input2 = Number(document.querySelector('.input2').value);
+	var answer = Number(document.querySelector('.answer').value);
+};
+
+	function addition(input1, input2) {
+		calculate();
+  		return input1 + input2;
+  	};
+  	function subtraction(input1, input2) {
+  		calculate();
+  		return input1 - input2;
+  	};
+  	function multiply(input1, input2) {
+  		calculate();
+  		return input1 * input2;
+  	};
+  	function divide(input1, input2) {
+  		calculate();
+  		return input1 / input2;
+  	};
+
+	var button = document.querySelector('button');
+	button.addEventListener('click', calculate());
+	
+
+  	
+
+
+
+
+</script>
+</html>
