@@ -33,13 +33,13 @@
 
 <body>
 	<div class = "calculator">
-		<input type="text" class="input1" placeholder="Enter 1st #">
+		<input type="number" class="input1" placeholder="Enter 1st #">
 			<button onClick="addition()"> + </button>
 			<button onClick="subtraction()"> - </button>
 			<button onClick="multiply()"> * </button>
 			<button onClick="divide()"> / </button>
-	    <input type="text" class="input2" placeholder="Enter 2nd #"> = 
-	    <input type="text" class="answer" placeholder="Answer">
+	    <input type="number" class="input2" placeholder="Enter 2nd #"> = 
+	    <input type="number" class="answer" placeholder="Answer">
 	</div>
 
 </body>
@@ -52,7 +52,7 @@
 
 	var button = document.querySelector("button");
 
-	function addition(input1, input2, answer) {
+	function addition(input1, input2) {
   		answer = input1 + input2;
   	};
   	function subtraction(input1, input2, answer) {
