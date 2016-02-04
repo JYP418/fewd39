@@ -1,7 +1,7 @@
 // // Alter the stylesheet to hide the contents of the page initially. When the page is loaded, fade in the contents slowly.
 // <body onload="myFunction()">
 
-$('document').fadeIn();
+$("body").css("display", 'none').fadeIn("slow");
 
 // Give each paragraph a yellow background only when the mouse is over it.
 $('p').on('mouseover', function() {
