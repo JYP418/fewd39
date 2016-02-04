@@ -5,10 +5,10 @@ $('body').css('display', 'none').fadeIn('slow');
 
 // Give each paragraph a yellow background only when the mouse is over it.
 $('p').on('mouseover', function() {
-	$('p').css('color', 'yellow');
+	$('p').css('background', 'yellow');
 });
 $('p').on('mouseout', function() {
-	$('p').css('color', 'black');
+	$('p').css('background', 'none');
 });
 
 // Make a click of the title (<h2>) and simultaneously fade it to 25 percent opacity and grow its left-hand margin to 20px. Then, when this animation is complete, fade the speech text to 50 percent opacity.
