@@ -13,8 +13,10 @@ $('p').on('mouseout', function() {
 
 // Make a click of the title (<h2>) and simultaneously fade it to 25 percent opacity and grow its left-hand margin to 20px. Then, when this animation is complete, fade the speech text to 50 percent opacity.
 $('h2').on('click', function () {
-	$('h2').fadeTo(0, 0.25);
 	$('h2').css('margin-left', '20px');
+	$('h2').fadeTo(400, 0.25, function() {
+		$('.speech').fadeTo(400, 0.50);
+	});
 });
 
 // Bonus: Make the style switcher work.
