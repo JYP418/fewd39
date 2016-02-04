@@ -32,5 +32,5 @@ $('#switcher-small').on('click', function () {
 	$('.speech').css('font-size', '0.8em');
 });
 
-
 // Challenge: React to presses of the arrow keys by smoothly moving the switcher box 20 pixels in the corresponding direction. The key codes for the arrow keys are: 37 (left), 38 (up), 39 (right), and 40 (down).
+
